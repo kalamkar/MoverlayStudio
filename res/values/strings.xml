@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Studio</string>
+    <string name="media_lib_name">Moverlay</string>
+    <string name="objects">Objects</string>
+    <string name="attributes">Attributes</string>
+    <string name="animations">Animations</string>
+    <string name="events">Events</string>
+    <string name="pages">Pages</string>
+    <string name="book">Book</string>
+    <string name="when">When</string>
+    <string name="on">On</string>
+    <string name="do_this">Do this</string>
+    <string name="change">Change</string>
+    <string name="merge">Merge</string>
+    <string name="replace">Replace</string>
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="flexible">Flexible</string>
+    <string name="app_store_id">App Store Id</string>
+    <string name="play_store_url">Play Store Url</string>
+    <string name="affiliate">Affiliate</string>
+    <string name="campaign">Campaign</string>
+    
+    <string name="could_not_load_book">Could not load book</string>
+    <string name="first_page_is_anchor">First page is anchor</string>
+    <string name="animated_anchor">Animated anchor</string>
+    <string name="replace_or_merge_searched_book">Replace the current book or merge with new one?</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="DrawerDetails">
+        <item name="android:background">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+
+    <style name="MenuButton">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">15dp</item>
+        <!-- item name="android:background">#FF27A8DB</item -->
+    </style>
+    
+    <style name="TextMenuButton" parent="MenuButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="AccordionTitle">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    
+    <style name="ReadOnlyText">
+        <item name="android:background">@android:drawable/editbox_dropdown_dark_frame</item>
+    </style>
+
+    <color name="BlueBack">#90CBD4</color>
+    <color name="GreenBack">#92D490</color>
+    <color name="YellowBack">#D4CE90</color>
+    <color name="PurpleBack">#BE90D4</color>
+    <color name="RedBack">#D49090</color>
+
+</resources>

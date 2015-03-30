@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/toolbar_animations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/move"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move" />
+        
+        <Button
+            android:id="@+id/zoom"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom" />
+        
+        <Button
+            android:id="@+id/playSound"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio" />
+        
+        <Button
+            android:id="@+id/bounce"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bounce" />
+        
+        <Button
+            android:id="@+id/openUrl"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL" />
+        
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_more" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/showApp"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App" />
+        
+        <Button
+            android:id="@+id/changePage"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Page" />
+    
+        <Button
+            android:id="@+id/stop"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+        
+        <Button
+            android:id="@+id/show"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show" />
+        
+        <Button
+            android:id="@+id/hide"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide" />
+        
+        <Button
+            android:id="@+id/rotate"
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate" />
+        
+        <Button
+            android:id="@+id/consume"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consume" />
+        
+        <Button
+            android:id="@+id/eat"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat" />
+        
+        <Button
+            android:id="@+id/counter"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count" />
+        
+        <Button
+            android:id="@+id/closeBook"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+        
+        <Button
+            android:id="@+id/change"
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change" />
+        
+        <Button
+            android:id="@+id/flip"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flip" />
+        
+        <Button
+            android:id="@+id/hop"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hop" />
+        
+        <Button
+            android:id="@+id/fly"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fly" />
+        <Button
+            android:id="@+id/sharePage"
+            style="@style/TextMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+    </GridLayout>
+
+</LinearLayout>
